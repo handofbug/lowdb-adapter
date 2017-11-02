@@ -1,6 +1,6 @@
 {
   "name": "lowdb-adapter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Connect node.js lowdb in one string",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/handofbug/lowdb-adapter#readme",
   "dependencies": {
+    "crypto": "^1.0.1",
     "lowdb": "^1.0.0"
   }
 }

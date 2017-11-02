@@ -11,6 +11,7 @@ db.get('posts').push({
         title: 'lowdb is awesome'
     })
     .write();
+    
 let data = db.get('posts').find({
     id: 2
 }).value();
