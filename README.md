@@ -20,9 +20,9 @@ Default 'db.json'.
 #### adapterName
 Default 'FileSync'. Can be:
 
->1. FileSync
->2. FileAsync
->3. Memory
+1. FileSync
+2. FileAsync
+3. Memory
 
 #### filename
 Default false. Use [crypto](https://nodejs.org/api/crypto.html)
