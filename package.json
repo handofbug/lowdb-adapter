@@ -1,0 +1,22 @@
+{
+  "name": "lowdb-adapter",
+  "version": "0.0.1",
+  "description": "Connect node.js lowdb in one string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handofbug/lowdb-adapter.git"
+  },
+  "keywords": [
+    "lowdb"
+  ],
+  "author": "handofbug@gmail.com",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/handofbug/lowdb-adapter/issues"
+  },
+  "homepage": "https://github.com/handofbug/lowdb-adapter#readme"
+}
