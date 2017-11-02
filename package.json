@@ -1,6 +1,6 @@
 {
   "name": "lowdb-adapter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Connect node.js lowdb in one string",
   "main": "index.js",
   "scripts": {
