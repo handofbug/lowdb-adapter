@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/handofbug/lowdb-adapter/issues"
   },
-  "homepage": "https://github.com/handofbug/lowdb-adapter#readme"
+  "homepage": "https://github.com/handofbug/lowdb-adapter#readme",
+  "dependencies": {
+    "lowdb": "^1.0.0"
+  }
 }
