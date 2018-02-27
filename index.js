@@ -1,9 +1,12 @@
 /* jshint -W119, -W104*/
-module.exports = function (fileName = 'db.json', adapterName = 'FileSync', encrypt = true) {
+module.exports = function (fileName = 'db.json', adapterName = 'FileSync', options = {
+    encrypt: true,
+    pass = 42
+}) {
 
     let crypto = require('crypto'),
         algorithm = 'aes-256-ctr',
-        password = '2319';
+        password = options.pass;
 
     function encrypt(text) {
         var cipher = crypto.createCipher(algorithm, password)

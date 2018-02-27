@@ -9,7 +9,7 @@
 npm install lowdb-adapter --save
 ```
 ## API
-#### (fileName = 'db.json', adapterName = 'FileSync', encrypt = false)
+#### (fileName = 'db.json', adapterName = 'FileSync', options = {})
 ```js
 let db = require('lowdb-adapter')();
 db.get('posts').push({id: 2).write();
@@ -24,8 +24,9 @@ Default 'FileSync'. Can be:
 2. FileAsync
 3. Memory
 
-#### filename
-Default false. Use [crypto](https://nodejs.org/api/crypto.html)
+#### options
+Default {encrypt : true, pass: 42}
+Used [crypto](https://nodejs.org/api/crypto.html)
 
 ## License
 
